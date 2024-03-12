@@ -4,6 +4,9 @@
 -----------------------
 [![image.png](https://i.postimg.cc/CxsRrGnw/image.png)](https://postimg.cc/dhDQLT9f)
 
+-David Montes:
+[![python-quiz.png](https://i.postimg.cc/qMt61nz6/python-quiz.png)](https://postimg.cc/JGLhns3R)
+
 2.Realice un programa que lea tres números reales y determine cuál es el mayor.
 -----------------------
 ```python
