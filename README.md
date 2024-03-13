@@ -2,6 +2,7 @@
 
 1.Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 -----------------------
+**-Kevin Gonzalez:**
 [![image.png](https://i.postimg.cc/CxsRrGnw/image.png)](https://postimg.cc/dhDQLT9f)
 
 **-David Montes:**
