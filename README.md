@@ -440,4 +440,16 @@ flowchart TD
     F -->|si:|g(el numero A es multiplo del numero B)
     F -->|sino:| h(el numero A no es multiplo del numero B)
 ```
+### -ejercicio 5 - IVÁN MALUCHE
 
+``` mermaid
+flowchart TD
+    A[¿La suma de 2 numeros es mayor, menor o igual a un tercer numero?] -->|comparar la igual entre una suma de 2 numeros y otro numero| B(realizar la suma entre los 2 numeros)
+    B --> C{comparar la suma con el tercer numero}
+    C --> D(son iguales)
+    D --> G(el tercer numero es igual a la suma de los otros 2)
+    C --> E(Es mayor la suma)
+    E --->H(el tercer numero es mayor a la suma de los otros 2)
+    C --> F(Es menor a la suma)
+    F -->I(el tercer numero es menor a la suma de los otros 2)
+```
