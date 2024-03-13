@@ -21,6 +21,10 @@
 **-Ivan Maluche:**
 
 
+![image](https://github.com/JavierGONL/Repo_Taller_1/assets/159048470/e5228a65-445b-4f15-85a7-aab8086fd7c1)
+
+
+
 2.Realice un programa que lea tres números reales y determine cuál es el mayor.
 -----------------------
 ```python
