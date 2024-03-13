@@ -161,13 +161,13 @@ if __name__ == '__main__':
 ```
 7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
 -----------------------
-## -El promedio
-## -La mediana
-## -El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
-## -Ordenar los números de forma ascendente
-## -Ordenar los números de forma descendente
-## -La potencia del mayor número elevado al menor número
-## -La raíz cúbica del menor número
+#### -El promedio
+#### -La mediana
+#### -El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+#### -Ordenar los números de forma ascendente
+#### -Ordenar los números de forma descendente
+#### -La potencia del mayor número elevado al menor número
+#### -La raíz cúbica del menor número
 
 ```python
 
@@ -296,10 +296,10 @@ match(P):
 ```
 10.Escriba un programa que dada una distancia calcule:
 -----------------------
-### -El tiempo que le tomaría a la luz recorrer la distancia.
-### -El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
-### -El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
-### -El tiempo que le tomaría a Bolt recorrer la distancia.
+#### -El tiempo que le tomaría a la luz recorrer la distancia.
+#### -El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+#### -El tiempo que le tomaría al vehiculo comercial más veloz recorrer la distancia.
+#### -El tiempo que le tomaría a Bolt recorrer la distancia.
 ```python
 def checkfloat(numero):
     try:
