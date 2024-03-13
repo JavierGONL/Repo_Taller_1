@@ -414,12 +414,13 @@ R--no-->T(el número 1 y el número 3 son iguales)
 ### -ejercicio 4 - KEVIN GONZALEZ
 
 ``` mermaid
-
 flowchart TD
     A(determinar si es A multiplo de B) --> B[A=ingrese un numero:]
     B -->C[B=ingrese un numero:]
-    C --> |si:|D{numero A % numero B == 0}    
-    D -->|entonces|E[es multiplo de A]
-    D -->|sino|F[no es multiplo de A]
+    C --> |si:|D{numero A and numero B != numero}    
+    D -->|entonces|E[ingrese numeros no otra cosa]
+    D -->|sino|F{es el residuo del numero A/ numero B == 0?}
+    F -->|si:|g(el numero A es multiplo del numero B)
+    f -->|sino:| h(el numero A no es multiplo del numero B)
 ```
 
