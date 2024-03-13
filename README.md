@@ -185,6 +185,7 @@ if __name__ == "__main__":
 ```
 9.Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
 -----------------------
+El programa solicita una cadena, determinando al usuario unas reglas que debe tener la cadena introducida. Al utilizar un "match-case" el programa evaluará e imprimira la capital correspondiente de cada país. Si no se siguen las reglas establecidas, el programa arrojara un mensaje de error, se detendrá y pedirá volver a ser iniciado.
 ```python
 print("este programa le enseñará el nombre de la capital de los paises de América:")
 P= input("Escriba un país de América(en minúsculas y con buena otrografía)"
