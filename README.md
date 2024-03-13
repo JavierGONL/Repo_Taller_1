@@ -421,6 +421,6 @@ flowchart TD
     D -->|entonces|E[ingrese numeros no otra cosa]
     D -->|sino|F{es el residuo del numero A/ numero B == 0?}
     F -->|si:|g(el numero A es multiplo del numero B)
-    f -->|sino:| h(el numero A no es multiplo del numero B)
+    F -->|sino:| h(el numero A no es multiplo del numero B)
 ```
 
