@@ -2,6 +2,12 @@
 -----------------------
 # Taller 1
 
+### INTEGRANTES:
+
+- Kevin Javier Gonzalez Luna
+- Ivan Felipe Maluche
+- Davin Montes
+  
 1.Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 -----------------------
 **-Kevin Gonzalez:**
@@ -62,9 +68,6 @@ EXPLICACION:
 
 
 ```
--El respectivo diagrama de flujo:
-
-[![](https://mermaid.ink/img/pako:eNqdlE1uwjAQha9ieRUksoDsWLTiJ5S_UgrdYRZWYiBSYlPbUYUQR-oFuqlULtYJTlISUFSxs1_efG_sSXLAnvAZbuF1KD68LZUaEd62hjzwAioRC9FOio2kEa3Z9kNnGXAthR97gUQO8qkWakV4Bx51l_z0FTEpUCNVernSTBU3VxxQCO-C1j_8fE-EQloyZYAoz_BhowRHaZVCktGQqccj4b37S937Swnv2zYXAghPS1dKIVewbJ9ldfqE9QDAbojyu0DAj-heSPQes-Q68ztB-8utY_CDjDO0WIkC-zOolvpMG6MkTxXBN_MaN_NGGWd8xXH-xWnmHNP3xCq0Uu57nPmerUJU0TfOuppCVwsYRZiNKp9JsIn_hjIFq8G-WNfWZJapvWa8Bj5L4RWHK8bMsuZfraqaYt4sO8sc4krzdy69JmOeZSysipellDFPMqDmraKvcg2uY9AjGvjw8R8IR4hgvWURI7gFS5-taRxqggk_gpXGWiz23MMtLWNWx_EOPhrWC2jyazDi8Re3W5ft?type=png)](https://mermaid-js.github.io/mermaid-live-editor//edit#pako:eNqdlE1uwjAQha9ieRUksoDsWLTiJ5S_UgrdYRZWYiBSYlPbUYUQR-oFuqlULtYJTlISUFSxs1_efG_sSXLAnvAZbuF1KD68LZUaEd62hjzwAioRC9FOio2kEa3Z9kNnGXAthR97gUQO8qkWakV4Bx51l_z0FTEpUCNVernSTBU3VxxQCO-C1j_8fE-EQloyZYAoz_BhowRHaZVCktGQqccj4b37S937Swnv2zYXAghPS1dKIVewbJ9ldfqE9QDAbojyu0DAj-heSPQes-Q68ztB-8utY_CDjDO0WIkC-zOolvpMG6MkTxXBN_MaN_NGGWd8xXH-xWnmHNP3xCq0Uu57nPmerUJU0TfOuppCVwsYRZiNKp9JsIn_hjIFq8G-WNfWZJapvWa8Bj5L4RWHK8bMsuZfraqaYt4sO8sc4krzdy69JmOeZSysipellDFPMqDmraKvcg2uY9AjGvjw8R8IR4hgvWURI7gFS5-taRxqggk_gpXGWiz23MMtLWNWx_EOPhrWC2jyazDi8Re3W5ft)
 3.Realice un programa que lea un número enteros y determine si es par o impar.
 -----------------------
 ```python
@@ -370,7 +373,53 @@ if __name__ == "__main__":
 -----------------------
 # DIAGRAMAS
 -----------------------
-### -ejercicio 4
+### -ejercicio 2 - DAVID MONTES
+El respectivo diagrama de flujo:
+```mermaid
+flowchart 
+A(Iniciar el programa)-->B[introducir 3 datos]
+B-->C[número 1]
+B-->D[número 2]
+B-->E[número 3]
 
-[![](https://mermaid.ink/img/pako:eNp1kEtrwzAMx7-KMAw6aGFnQwZJs9126k6LezCx2prGUvCDMeJ89znNBoUxnfT46a_HJHo2KKQ4DfzZX7SP8N4qgmL1xmBE7yxpD8ECBqjBpSHacWAwCM0j7HbP0HR1ZensMSAkAkoOPcvjKtIsyL5r_if2N5EcrMzttJbKnIcfqghUFTzNC7ny7cJnpMjUY8gvXdnrfqv6eM8FS5xfO2L4g4mtKBOctqacPy1NSsQLOlRCFtdof1VC0Vw4nSIfvqgXMvqEW5FGoyO2Vp-9dr_JUdMHcwlPegglRmMj-7f1vbcvz9-SznZ8?type=png)](https://mermaid.live/edit#pako:eNp1kEtrwzAMx7-KMAw6aGFnQwZJs9126k6LezCx2prGUvCDMeJ89znNBoUxnfT46a_HJHo2KKQ4DfzZX7SP8N4qgmL1xmBE7yxpD8ECBqjBpSHacWAwCM0j7HbP0HR1ZensMSAkAkoOPcvjKtIsyL5r_if2N5EcrMzttJbKnIcfqghUFTzNC7ny7cJnpMjUY8gvXdnrfqv6eM8FS5xfO2L4g4mtKBOctqacPy1NSsQLOlRCFtdof1VC0Vw4nSIfvqgXMvqEW5FGoyO2Vp-9dr_JUdMHcwlPegglRmMj-7f1vbcvz9-SznZ8)
+C-->F{¿Los tres datos introducidos son números reales?}
+D-->F{¿Los tres datos introducidos son números reales?}
+E-->F{¿Los tres datos introducidos son números reales?}
+
+F--noo-->G[Error]-->A
+F--sí-->H{¿El número 1 es mayor que el número 2 y el número 3?}
+
+H--sí-->I(el número 1 es el mayor)
+
+H--noo-->J{¿Es el número 2 mayor que el número 1 y el número 3?}
+
+J--noo-->K{¿Es el número 3 mayor que el número 1 y el número 2?}
+
+J--sí-->L(el número 2 es el mayor)
+
+K--sí-->M(el número 3 es el mayor)
+K--noo-->N{¿Son los tres números iguales?}
+
+N-->sí-->O(los tres números son iguales)
+N-->noo-->P{¿Son el número 1 y el número 2 iguales?}
+
+P--sí-->Q(el número 1 y el número 2 son iguales)
+P--noo-->R{¿el número 2 y 3 son iguales?}
+
+R--sí-->S(el número 2 y el número 3 son iguales)
+R--no-->T(el número 1 y el número 3 son iguales)
+
+
+```
+### -ejercicio 4 - KEVIN GONZALEZ
+
+``` mermaid
+
+flowchart TD
+    A(determinar si es A multiplo de B) --> B[A=ingrese un numero:]
+    B -->C[B=ingrese un numero:]
+    C --> |si:|D{numero A % numero B == 0}    
+    D -->|entonces|E[es multiplo de A]
+    D -->|sino|F[no es multiplo de A]
+```
 
