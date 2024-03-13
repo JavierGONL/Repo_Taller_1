@@ -183,13 +183,7 @@ if __name__ == '__main__':
 #### -Ordenar los números de forma descendente
 #### -La potencia del mayor número elevado al menor número
 #### -La raíz cúbica del menor número
-EXPLICACION
-# Con la media es tan facil como dividir la suma de todos los numeros entre 5, pues en este caso esa siempre sera la cantidad de numeros que usemos
-# Con la mediana es necesario adentrar estos numeros en un conjunto, ordenandolo con "sorted" y encontrar el valor en el medio con ayuda de un index que represente al dato del medio dentro del conjunto ya ordenado
-# El promedio multiplicativo al igual que el promedio comun es solamente multiplicar todos los valores entre si y despues potenciarlo por 0.2(1/5) a falta de una raiz
-# para el conjunto ordenado ascendente solamente debemos de tomar el conjunto ordenado obtenido en la mediana
-# para el descendente es necesario volver a ordenar el conjunto pero volviendo la variable reversa verdadera
-# por ultimo para la potencia y raiz usando el numero mayor y menor usando "min" y "max" para que el programa identifique el numero mayor y menor del conjunto, aplicando estos en operaciones (numero mayor potenciado al menor y raiz cubica del numero menor)
+
 
 ```python
 a:float= float(input("(numero1)a:"))
@@ -219,6 +213,13 @@ print(str(longitud)+ "(el conjunto en orden ascendente)")
 print(str(lista_inversa) +"(el conjunto en orden descendente)")
 print("la potencia numero menor del numero mayor es " +str(potencia1))
 print("raiz cubica del numero menor " + str(raiz1))
+EXPLICACION
+# Con la media es tan facil como dividir la suma de todos los numeros entre 5, pues en este caso esa siempre sera la cantidad de numeros que usemos
+# Con la mediana es necesario adentrar estos numeros en un conjunto, ordenandolo con "sorted" y encontrar el valor en el medio con ayuda de un index que represente al dato del medio dentro del conjunto ya ordenado
+# El promedio multiplicativo al igual que el promedio comun es solamente multiplicar todos los valores entre si y despues potenciarlo por 0.2(1/5) a falta de una raiz
+# para el conjunto ordenado ascendente solamente debemos de tomar el conjunto ordenado obtenido en la mediana
+# para el descendente es necesario volver a ordenar el conjunto pero volviendo la variable reversa verdadera
+# por ultimo para la potencia y raiz usando el numero mayor y menor usando "min" y "max" para que el programa identifique el numero mayor y menor del conjunto, aplicando estos en operaciones (numero mayor potenciado al menor y raiz cubica del numero menor)
 
 ```
 8.Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
