@@ -444,7 +444,11 @@ flowchart TD
 
 ``` mermaid
 flowchart TD
-    A[¿La suma de 2 numeros es mayor, menor o igual a un tercer numero?] -->|comparar la igual entre una suma de 2 numeros y otro numero| B(realizar la suma entre los 2 numeros)
+  A[¿La suma de 2 numeros es mayor, menor o igual a un tercer numero?] -->|comparar la igual entre una suma de 2 numeros y otro numero| J(iniciar programa)
+    J --> K(ingresar los 3 numeros)
+    K--> L{¿Son los 3 numeros reales?}
+    L --> No --> A
+L --> Si -->B(realizar la suma entre los 2 numeros)
     B --> C{comparar la suma con el tercer numero}
     C --> D(son iguales)
     D --> G(el tercer numero es igual a la suma de los otros 2)
@@ -452,4 +456,6 @@ flowchart TD
     E --->H(el tercer numero es mayor a la suma de los otros 2)
     C --> F(Es menor a la suma)
     F -->I(el tercer numero es menor a la suma de los otros 2)
+  
+ 
 ```
