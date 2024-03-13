@@ -367,6 +367,7 @@ if __name__ == "__main__":
 -----------------------
 # DIAGRAMAS
 -----------------------
--ejercicio 4
+### -ejercicio 4
+
 [![](https://mermaid.ink/img/pako:eNp1kEtrwzAMx7-KMAw6aGFnQwZJs9126k6LezCx2prGUvCDMeJ89znNBoUxnfT46a_HJHo2KKQ4DfzZX7SP8N4qgmL1xmBE7yxpD8ECBqjBpSHacWAwCM0j7HbP0HR1ZensMSAkAkoOPcvjKtIsyL5r_if2N5EcrMzttJbKnIcfqghUFTzNC7ny7cJnpMjUY8gvXdnrfqv6eM8FS5xfO2L4g4mtKBOctqacPy1NSsQLOlRCFtdof1VC0Vw4nSIfvqgXMvqEW5FGoyO2Vp-9dr_JUdMHcwlPegglRmMj-7f1vbcvz9-SznZ8?type=png)](https://mermaid.live/edit#pako:eNp1kEtrwzAMx7-KMAw6aGFnQwZJs9126k6LezCx2prGUvCDMeJ89znNBoUxnfT46a_HJHo2KKQ4DfzZX7SP8N4qgmL1xmBE7yxpD8ECBqjBpSHacWAwCM0j7HbP0HR1ZensMSAkAkoOPcvjKtIsyL5r_if2N5EcrMzttJbKnIcfqghUFTzNC7ny7cJnpMjUY8gvXdnrfqv6eM8FS5xfO2L4g4mtKBOctqacPy1NSsQLOlRCFtdof1VC0Vw4nSIfvqgXMvqEW5FGoyO2Vp-9dr_JUdMHcwlPegglRmMj-7f1vbcvz9-SznZ8)
 
