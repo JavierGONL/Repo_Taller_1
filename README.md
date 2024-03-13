@@ -1,4 +1,5 @@
-# taller 1
+# Taller 1
+[![error-418.png](https://i.postimg.cc/HkMddSNw/error-418.png)](https://postimg.cc/dhJz99w3)
 
 1.Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 -----------------------
