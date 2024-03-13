@@ -144,7 +144,7 @@ if __name__ == '__main__':
     
     if len(letra) > 1: 
         letra = input("ingrese solo una letra: ")  
-    elif letra.isalpha == False: #verifica que no tiene acente ya que en ingles no existen pero en español si :c 
+    elif letra.isalpha == False: 
         letra = input("ingrese solo letras(A-Z sin acento): ")
     else:
         if ord(letra) ==  (65 or 69 or 73 or 79 or 85 or 97 or 101 or 105 or 111 or 117): 
