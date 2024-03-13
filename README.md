@@ -1,5 +1,6 @@
-# Taller 1
 [![error-418.png](https://i.postimg.cc/HkMddSNw/error-418.png)](https://postimg.cc/dhJz99w3)
+-----------------------
+# Taller 1
 
 1.Realice el quiz Python Beginner Quiz (20 preguntas) y adjunte pantallazo con el resultado (mínimo 90% bien).
 -----------------------
@@ -10,6 +11,9 @@
 
 
 [![python-quiz.png](https://i.postimg.cc/qMt61nz6/python-quiz.png)](https://postimg.cc/JGLhns3R)
+
+**-Ivan Maluche:**
+
 
 2.Realice un programa que lea tres números reales y determine cuál es el mayor.
 -----------------------
@@ -24,7 +28,7 @@ def checkfloat(numero):
 if __name__ == "__main__":
 
         
-        numero1 = input("Ingrese el primer número: ")
+        numero1 = input("Ingrese el primer número: ") 
         numero2 = input("Ingrese el segundo número: ")
         numero3 = input("Ingrese el tercer número: ")
         if checkfloat(numero1) == False or checkfloat(numero2) == False or checkfloat(numero3) == False:
@@ -48,6 +52,15 @@ if __name__ == "__main__":
                 print("Hay un empate entre el primer y segundo numero")
             else:
                 print("Hay un empate entre el primer y tercer numero")
+
+EXPLICACION:
+# se ingresan los 3 numeros y se comprueba si los valores ingresados sean numeros, y al comprobar que son numeros convierte el string del input en un float
+# comprueba que el numero 1 es mayor al 2 y al numero 3, si lo es imprime en la consola que el numero uno es mayor
+    # si pasa el primer if, pasa al elif y comprueba ahora que el numero 2 sea mayor al 1 y al 3, si lo es imprime que el numero 2 es el mayor
+        #si pasa al siquiente elif, solo queda el numero 3 a verificar que sea mayor a los otros 2  y se imprime que el numero 3 es el mayor
+            #el else es un añadido que verifica si los numeros son iguales o hay un empate entre dos numeros y te dice cuales son
+
+
 ```
 3.Realice un programa que lea un número enteros y determine si es par o impar.
 -----------------------
@@ -81,6 +94,12 @@ if __name__ == "__main__":
         print("El numero es multiplo del segundo numero")
     else:
         print("El primer numero no es multiplo del segundo numero")
+
+#EXPLICACION:
+#primero se ingresan los dos numeros a verificar si el primero es multiplo del segundo
+#el programa verifica que sean numeros, si los son convierte el string del input en un float
+#el programa verifica si el residuo de la division del numero1 % numero2 == 0, si lo es: el primero es multiplo del segundo numero , sino:
+    #pasa al else e imprime en la consola que el primer numero no es multiplo del segundo numero
 
 ```
 5.Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
@@ -117,19 +136,27 @@ else:
 ```
 6.Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
 -----------------------
+
+
 ```python
 if __name__ == '__main__':
-    letra = input("Ingrese una letra: ")
+    letra = input("Ingrese una letra: ") 
     
-    if len(letra) > 1:
-        letra = input("ingrese solo letras: ")  
-    elif letra.isalpha == False:
+    if len(letra) > 1: 
+        letra = input("ingrese solo una letra: ")  
+    elif letra.isalpha == False: #verifica que no tiene acente ya que en ingles no existen pero en español si :c 
         letra = input("ingrese solo letras(A-Z sin acento): ")
     else:
-        if ord(letra) ==  (65 or 69 or 73 or 79 or 85 or 97 or 101 or 105 or 111 or 117):
+        if ord(letra) ==  (65 or 69 or 73 or 79 or 85 or 97 or 101 or 105 or 111 or 117): 
             print("Es una vocal")
-        else:
+        else:  
             print("Es una consonante")
+
+#EXPLICACION:
+#primero se ingresa la letra a revisar si es vocal o es consonante
+#se verifica que solo entre una letra y luego se verifica que no tiene acento ya que en ingles no existen pero en español si :c, si tiene acento te especifica que no coloques acentos >:c
+#al pasar la "verificacion"conprueba que es una de los posibles numeros ASCII que pertenecen a una vocal
+#si no es vocal cae en el else y se imprime que es constante
             
 ```
 7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
@@ -299,5 +326,11 @@ if __name__ == "__main__":
         print("el tiempo que tarda en recorer la distancia el carro mas veloz es: ", tiempoCarroMasVeloz, "segundos")
         tiempoBolt = distancia / 10.43
         print("el tiempo que tarda en recorer la distancia Usain Bolt es: ", tiempoBolt, "segundos")
+
+#EXPLICACION:
+#primero defino los valores que piden los transformo a metros sobre segundos y luego si voy al codigo
+#el programa "pide" que ingrese una distancia en metros y luego verifica que sea una distancia positiva y que sea un numero
+# T= D/V con esa formula para cada tiempo a calcular (luz,sonido, el carro, y ussain bolt), como distancia usa la del input y la velocidad la que defini al inicio
+#el programa imprime cuanto tiempo tarda cada cosa en recorrer la distancia
 
 ``` 
