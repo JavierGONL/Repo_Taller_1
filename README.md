@@ -83,6 +83,7 @@ if __name__ == "__main__":
 ```
 5.Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
 -----------------------
+El programa solicita la introducción de tres números reales(a través de la función is.digit y la función in, puede distinguir si la cadena ingresada es válida o no), si todas las cadenas ingresadas son válidas, todas las cadenas se transforman en variables de tipo "float" y se suman las primeras dos variables(declaradas como "a" y "b"), dando como resultado la variable "e", si la variable "e" es menor que el número 3(declarado "c"), se juzga a la suma de "a" y "b" como menor que "c", sino, se evalua si "e" es mayor que "c", si este es el caso, se juzga a la suma a+b como mayor que "c", si este no es el caso, significa que "e" y "c" son iguales, por lo que a+b=c. Si alguna de las cadenas ingresadas no es válida, el programa se finaliza con un mensaje de error.
 ```python
 na= input("Introduzca el primer número real ")
 nb= input("Introduzca el segundo número real ")
