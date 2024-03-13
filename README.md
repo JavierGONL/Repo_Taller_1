@@ -76,6 +76,11 @@ if x/2 == x//2:
     print ("este numero es par")
 else:
     print("este numero no es par")
+EXPLICACION
+#El usuario debe ingresar el numero entero por teclado
+# El condicional compara la division con la divison exacta, esto para comprobar que la division no deja ningun residuo
+# Si es asi entonces podemos deducir que es par, pues todo numero par al dividirlo entre 2 dara un entero
+# Si no es asi automaticamente asumiremos que no es par 
 ```
 
 4.Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
@@ -178,6 +183,13 @@ if __name__ == '__main__':
 #### -Ordenar los números de forma descendente
 #### -La potencia del mayor número elevado al menor número
 #### -La raíz cúbica del menor número
+EXPLICACION
+# Con la media es tan facil como dividir la suma de todos los numeros entre 5, pues en este caso esa siempre sera la cantidad de numeros que usemos
+# Con la mediana es necesario adentrar estos numeros en un conjunto, ordenandolo con "sorted" y encontrar el valor en el medio con ayuda de un index que represente al dato del medio dentro del conjunto ya ordenado
+# El promedio multiplicativo al igual que el promedio comun es solamente multiplicar todos los valores entre si y despues potenciarlo por 0.2(1/5) a falta de una raiz
+# para el conjunto ordenado ascendente solamente debemos de tomar el conjunto ordenado obtenido en la mediana
+# para el descendente es necesario volver a ordenar el conjunto pero volviendo la variable reversa verdadera
+# por ultimo para la potencia y raiz usando el numero mayor y menor usando "min" y "max" para que el programa identifique el numero mayor y menor del conjunto, aplicando estos en operaciones (numero mayor potenciado al menor y raiz cubica del numero menor)
 
 ```python
 a:float= float(input("(numero1)a:"))
