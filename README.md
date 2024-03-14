@@ -462,4 +462,4 @@ L --> Si -->B(realizar la suma entre los 2 numeros)
 link al video en el cual se explica el punto 5:
 
 
-[![video de resolución](https://i.ytimg.com/vi/bBYBskhDXr8/hqdefault.jpg)]([https://www.youtube.com/watch?v=bBYBskhDXr8&ab)
+[![Comprehensive Markdown Crash Course](https://img.youtube.com/vi/FEa2diI2qgA/mqdefault.jpg)](https://www.youtube.com/watch?v=FEa2diI2qgA)
