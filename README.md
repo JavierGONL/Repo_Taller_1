@@ -459,3 +459,5 @@ L --> Si -->B(realizar la suma entre los 2 numeros)
   
  
 ```
+link al video en el cual se explica el punto 5:
+![video de resolución](https://www.youtube.com/watch?v=bBYBskhDXr8&ab_channel=DavidsIdeen)
