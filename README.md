@@ -1,4 +1,10 @@
-[![error-418.png](https://i.postimg.cc/HkMddSNw/error-418.png)](https://postimg.cc/dhJz99w3)
+<div align='center'>
+<figure> <img src="https://i.postimg.cc/HkMddSNw/error-418.png" alt="" width="300" height="auto"/></br>
+<figcaption><b></b></figcaption></figure>
+</div>
+
+
+
 -----------------------
 # Taller 1
 
@@ -459,7 +465,8 @@ L --> Si -->B(realizar la suma entre los 2 numeros)
   
  
 ```
-link al video en el cual se explica el punto 5:
+video explicacion al punto 5:
+
+[![Watch the video](https://i3.ytimg.com/vi/bBYBskhDXr8/maxresdefault.jpg)](https://youtu.be/bBYBskhDXr8?si=WjB_R_ywiz7qhus2)
 
 
-[![Watch the video](https://i.ytimg.com/an_webp/bBYBskhDXr8/mqdefault_6s.webp?du=3000&sqp=CO7vyK8G&rs=AOn4CLByHG5o5ZvZKyGU8pzyQpo-xI7nxQ)](https://youtu.be/bBYBskhDXr8?si=WjB_R_ywiz7qhus2)
